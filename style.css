@@ -8,3 +8,35 @@
 @import "./css/grid.css";
 @import "./css/layout.css";
 @import "./css/mediaquery.css";
+
+body{
+    /* altura total dependiendo de los pixeles de la pantalla */
+    height: 100vw;
+}
+header{
+    display:flex;
+    
+}
+.menu{
+    flex-direction: row;
+    background-color: aqua;
+}
+.imgLogo{
+height: 40px;
+width: 40px;
+}
+a{}
+.menu__acciones{
+    background-color: yellow;
+}
+.menu__acciones a{}
+.button_suscribete{
+    padding: 10px;
+    border-radius: 15px;
+}
+.bannerImg{
+    width: 100vw;
+    height: 10vh;
+    background-color: blue
+    ;
+}
