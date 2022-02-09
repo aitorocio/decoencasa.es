@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de usuario</title>
-    <link rel="stylesheet" href="style.css">
+    <title>pagina usuario</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <header>
-        <!-- menu -->
-        <section class="menu">
-            <!-- logo  -->
-            <img src="./img/mobile/logo.svg">
-            <!-- links menu -->
-            <a href="#">Home</a>
-            <a href="#">Interiores</a>
-            <a href="#">Exteriores</a>        
-            
-        </section>
-         <!-- seccion inicioSesion y Suscripcion -->
-        <section class="menu__acciones">
-            <a href="#">Iniciar Sesion</a>    
-            <button class="boton_suscribete"><a href="#" value="Suscribete"></a></button>
-        </section>
-
+        <!-- menu -->  
+        <div class="menu">                      
+                <!-- logo  -->
+            <a href="../index.html"><img src="./img/mobile/logo.svg" class="logo"></a>
+            <section class="menu__central">
+                <!-- links menu -->                
+                <ul>   
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./interiores.html">Interiores</a></li>
+                    <li><a href="./exteriores.html">Exteriores</a></li>        
+                </ul>
+            </section>
+            <!-- seccion inicio de sesion y suscripcion -->
+            <section class="menu__derecha">
+                <a href="./inicioSesion.html">Iniciar Sesion</a>    
+                <button class="boton_suscribete"><a href="./crearUsuario.html" value="Suscribete"></a></button>
+            </section>
+        </div>
     </header>
     <section class="main">
         <!-- banner img -->
        <div class="banner_img"></div>
     </section>
+
 </body>
 </html>
