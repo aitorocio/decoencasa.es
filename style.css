@@ -9,8 +9,12 @@
 @import "./css/layout.css";
 @import "./css/mediaquery.css";
 
-body{}
-header{}
+body{
+    height: 100vh;
+}
+header{
+    height: 30vh;
+}
 .menu{
 
     /* creo plantilla grid */
@@ -43,4 +47,7 @@ ul{
 .logo{
     width: 25%;
     height: 25%;
+}
+button{
+    padding: 10px;
 }
