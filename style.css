@@ -9,6 +9,9 @@
 @import "./css/layout.css";
 @import "./css/mediaquery.css";
 
+
+/* HEADER GENERAL */
+
 body{
     height: auto;
 }
@@ -65,4 +68,19 @@ a{
 }
 button{
     padding: 10px 30px;
+}
+
+/* INICIO SESION */
+
+.pantalla_inicioSesion{
+    width: 816px;
+    height: 623px;
+    display: grid;
+    grid-template-columns: 3;
+    background-color: #C6B6B6;
+}
+
+form{
+    grid-column: 2/3;
+    
 }
