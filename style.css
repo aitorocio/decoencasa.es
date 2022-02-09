@@ -10,10 +10,10 @@
 @import "./css/mediaquery.css";
 
 body{
-    height: 100vh;
+    height: auto;
 }
 header{
-    height: 30vh;
+    height: 15vh;
 }
 .menu{
 
