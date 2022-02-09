@@ -22,7 +22,7 @@ header{
 }
 
 .menu{
-
+    height: 100%;
     /* creo plantilla grid */
     display: grid;
     /* genero columnas laterales y central */
