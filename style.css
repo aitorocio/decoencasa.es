@@ -9,34 +9,38 @@
 @import "./css/layout.css";
 @import "./css/mediaquery.css";
 
-body{
-    /* altura total dependiendo de los pixeles de la pantalla */
-    height: 100vw;
-}
-header{
-    display:flex;
-    
-}
+body{}
+header{}
 .menu{
+
+    /* creo plantilla grid */
+    display: grid;
+    /* genero columnas laterales y central */
+    grid-template-columns: 15vw 70vw 15vw;
+
+
+}
+.menu__izquierda{
+    /* genero palntilla flex */
+    display: flex;
+    /* le doy valor de fila */
     flex-direction: row;
-    background-color: aqua;
+    /* centro los valores */
+    justify-content: center;
+
 }
-.imgLogo{
-height: 40px;
-width: 40px;
+ul{
+    display:flex;
+    justify-content: space-around;
 }
-a{}
-.menu__acciones{
-    background-color: yellow;
+.menu__derecha{
+    /* genero palntilla flex */
+    display: flex;
+    /* centro los valores */
+    justify-content: center;
+
 }
-.menu__acciones a{}
-.button_suscribete{
-    padding: 10px;
-    border-radius: 15px;
-}
-.bannerImg{
-    width: 100vw;
-    height: 10vh;
-    background-color: blue
-    ;
+.logo{
+    width: 25%;
+    height: 25%;
 }

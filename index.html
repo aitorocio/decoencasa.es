@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <!-- menu -->
-        <section class="menu">
-            <!-- logo  -->
-            <div class="imgLogo">LOGO</div>
-            <!-- links menu -->
-            <a href="#">Home</a>
-            <a href="#">Interiores</a>
-            <a href="#">Exteriores</a>        
-            
-        </section>
-         <!-- seccion inicioSesion y Suscripcion -->
-        <section class="menu__acciones">
-            <a href="#">Iniciar Sesion</a>    
-            <button class="boton_suscribete"><a href="#" value="Suscribete"></a></button>
-        </section>
-
+        <div class="menu">
+            <!-- menu -->
+            <section class="menu__izquierda">
+                <!-- logo  -->
+                <a href="index.html"><img src="./img/mobile/logo.svg" class="logo"></a>
+                <!-- links menu -->
+                <ul>   
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./html/interiores.html">Interiores</a></li>
+                    <li><a href="./html/exteriores.html">Exteriores</a></li>        
+                </ul>
+            </section>
+            <!-- seccion inicioSesion y Suscripcion -->
+            <section class="menu__derecha">
+                <a href="#">Iniciar Sesion</a>    
+                <button class="boton_suscribete"><a href="./html/crearUsuario.html" value="Suscribete"></a></button>
+            </section>
+        </div>
     </header>
     <section class="main">
         <!-- banner img -->
        <div class="banner_img"></div>
     </section>
+
 </body>
 </html>
